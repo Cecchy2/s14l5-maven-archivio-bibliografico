@@ -1,30 +1,50 @@
-codice ISBN- 1593, Titolo- Have His Carcase, Anno- 2021, Numero Pagine- 28, Periodicità- settimanale
-codice ISBN- 1381, Titolo- Tirra Lirra by the River, Anno- 2023, Numero Pagine- 20, Periodicità- settimanale
-codice ISBN- 1787, Titolo- All the King's Men, Anno- 2020, Numero Pagine- 33, Periodicità- settimanale
-codice ISBN- 1909, Titolo- The Widening Gyre, Anno- 2023, Numero Pagine- 31, Periodicità- settimanale
-codice ISBN- 1535, Titolo- The Way of All Flesh, Anno- 2020, Numero Pagine- 25, Periodicità- settimanale
-codice ISBN- 1377, Titolo- The Cricket on the Hearth, Anno- 2021, Numero Pagine- 33, Periodicità- settimanale
-codice ISBN- 1641, Titolo- All the King's Men, Anno- 2023, Numero Pagine- 37, Periodicità- settimanale
-codice ISBN- 1382, Titolo- The Other Side of Silence, Anno- 2022, Numero Pagine- 27, Periodicità- settimanale
-codice ISBN- 1848, Titolo- Tiger! Tiger!, Anno- 2020, Numero Pagine- 22, Periodicità- settimanale
-codice ISBN- 1560, Titolo- Dance Dance Dance, Anno- 2023, Numero Pagine- 36, Periodicità- settimanale
-codice ISBN- 1615, Titolo- Nectar in a Sieve, Anno- 2023, Numero Pagine- 21, Periodicità- settimanale
-codice ISBN- 1735, Titolo- Consider the Lilies, Anno- 2023, Numero Pagine- 21, Periodicità- settimanale
-codice ISBN- 1208, Titolo- Far From the Madding Crowd, Anno- 2021, Numero Pagine- 26, Periodicità- settimanale
-codice ISBN- 1078, Titolo- The Needle's Eye, Anno- 2023, Numero Pagine- 27, Periodicità- settimanale
-codice ISBN- 1488, Titolo- Tiger! Tiger!, Anno- 2020, Numero Pagine- 37, Periodicità- settimanale
-codice ISBN- 1641, Titolo- Edna O'Brien, Anno- 2023, Numero Pagine- 29, Periodicità- settimanale
-codice ISBN- 1342, Titolo- What's Become of Waring, Anno- 2022, Numero Pagine- 28, Periodicità- settimanale
-codice ISBN- 1874, Titolo- No Highway, Anno- 2021, Numero Pagine- 37, Periodicità- settimanale
-codice ISBN- 1505, Titolo- Antic Hay, Anno- 2021, Numero Pagine- 22, Periodicità- settimanale
-codice ISBN- 1650, Titolo- Frequent Hearses, Anno- 2023, Numero Pagine- 28, Periodicità- settimanale
-codice ISBN- 1633, Titolo- A Swiftly Tilting Planet, Anno- 2022, Numero Pagine- 22, Periodicità- settimanale
-codice ISBN- 1501, Titolo- Butter In a Lordly Dish, Anno- 2023, Numero Pagine- 20, Periodicità- settimanale
-codice ISBN- 1239, Titolo- A Time of Gifts, Anno- 2023, Numero Pagine- 33, Periodicità- settimanale
-codice ISBN- 1499, Titolo- The Wind's Twelve Quarters, Anno- 2022, Numero Pagine- 32, Periodicità- settimanale
-codice ISBN- 1664, Titolo- It's a Battlefield, Anno- 2021, Numero Pagine- 28, Periodicità- settimanale
-codice ISBN- 1740, Titolo- An Acceptable Time, Anno- 2023, Numero Pagine- 33, Periodicità- settimanale
-codice ISBN- 1874, Titolo- Down to a Sunless Sea, Anno- 2021, Numero Pagine- 29, Periodicità- settimanale
-codice ISBN- 1691, Titolo- Look to Windward, Anno- 2022, Numero Pagine- 27, Periodicità- settimanale
-codice ISBN- 1202, Titolo- No Longer at Ease, Anno- 2021, Numero Pagine- 23, Periodicità- settimanale
-codice ISBN- 1667, Titolo- The Last Temptation, Anno- 2021, Numero Pagine- 37, Periodicità- settimanale
+codice ISBN- 1693, Titolo- Dance Dance Dance, Anno- 1945, Numero Pagine- 344, Autore- Herschel Flatley II, Genere- Textbook
+codice ISBN- 1576, Titolo- The Violent Bear It Away, Anno- 1948, Numero Pagine- 197, Autore- Quentin Paucek Jr., Genere- Mythopoeia
+codice ISBN- 1083, Titolo- Where Angels Fear to Tread, Anno- 2013, Numero Pagine- 369, Autore- Ms. Krishna Macejkovic, Genere- Folklore
+codice ISBN- 1119, Titolo- A Passage to India, Anno- 1930, Numero Pagine- 373, Autore- Ervin Feil PhD, Genere- Tall tale
+codice ISBN- 1323, Titolo- Beyond the Mexique Bay, Anno- 1968, Numero Pagine- 257, Autore- Lenny Cremin, Genere- Classic
+codice ISBN- 1554, Titolo- The Little Foxes, Anno- 2003, Numero Pagine- 370, Autore- Cameron Feest, Genere- Metafiction
+codice ISBN- 1213, Titolo- Dulce et Decorum Est, Anno- 1948, Numero Pagine- 366, Autore- Mauricio Schiller III, Genere- Suspense/Thriller
+codice ISBN- 1341, Titolo- A Monstrous Regiment of Women, Anno- 1906, Numero Pagine- 122, Autore- Whitney Collins, Genere- Metafiction
+codice ISBN- 1132, Titolo- Infinite Jest, Anno- 1990, Numero Pagine- 82, Autore- Alejandro Buckridge I, Genere- Fairy tale
+codice ISBN- 1627, Titolo- Françoise Sagan, Anno- 2018, Numero Pagine- 252, Autore- Laura Zboncak, Genere- Narrative nonfiction
+codice ISBN- 1197, Titolo- After Many a Summer Dies the Swan, Anno- 1921, Numero Pagine- 174, Autore- Arnoldo Johnston, Genere- Fiction narrative
+codice ISBN- 1217, Titolo- Everything is Illuminated, Anno- 2005, Numero Pagine- 71, Autore- Gertude Klocko, Genere- Fable
+codice ISBN- 1159, Titolo- From Here to Eternity, Anno- 1995, Numero Pagine- 308, Autore- Norman Kerluke, Genere- Folklore
+codice ISBN- 1928, Titolo- A Scanner Darkly, Anno- 1952, Numero Pagine- 348, Autore- Carmen Bins, Genere- Essay
+codice ISBN- 1516, Titolo- In a Glass Darkly, Anno- 1947, Numero Pagine- 196, Autore- Buena Lynch V, Genere- Essay
+codice ISBN- 1387, Titolo- Quo Vadis, Anno- 2015, Numero Pagine- 257, Autore- Ronnie Waters, Genere- Speech
+codice ISBN- 1418, Titolo- Lilies of the Field, Anno- 1983, Numero Pagine- 199, Autore- Gregg Sanford III, Genere- Reference book
+codice ISBN- 1752, Titolo- Of Human Bondage, Anno- 1903, Numero Pagine- 123, Autore- Abram Lang, Genere- Historical fiction
+codice ISBN- 1826, Titolo- A Time to Kill, Anno- 1913, Numero Pagine- 122, Autore- Mose Feest, Genere- Short story
+codice ISBN- 1324, Titolo- Pale Kings and Princes, Anno- 1934, Numero Pagine- 248, Autore- Oswaldo Anderson Sr., Genere- Classic
+codice ISBN- 1519, Titolo- Beyond the Mexique Bay, Anno- 1947, Numero Pagine- 166, Autore- Jamey Breitenberg, Genere- Science fiction
+codice ISBN- 1868, Titolo- Nectar in a Sieve, Anno- 1935, Numero Pagine- 223, Autore- Lee Yost, Genere- Essay
+codice ISBN- 1871, Titolo- Terrible Swift Sword, Anno- 1944, Numero Pagine- 220, Autore- Miss Jorge Bruen, Genere- Legend
+codice ISBN- 1360, Titolo- Nine Coaches Waiting, Anno- 1962, Numero Pagine- 91, Autore- Brittany Wilderman, Genere- Textbook
+codice ISBN- 1331, Titolo- Fear and Trembling, Anno- 1929, Numero Pagine- 160, Autore- Calista Ritchie, Genere- Fable
+codice ISBN- 1846, Titolo- From Here to Eternity, Anno- 1929, Numero Pagine- 291, Autore- Jamal Lehner, Genere- Realistic fiction
+codice ISBN- 1206, Titolo- The Golden Bowl, Anno- 1930, Numero Pagine- 330, Autore- Coy Hammes, Genere- Classic
+codice ISBN- 1941, Titolo- All the King's Men, Anno- 1943, Numero Pagine- 319, Autore- Scotty Crona, Genere- Speech
+codice ISBN- 1332, Titolo- Dying of the Light, Anno- 1910, Numero Pagine- 230, Autore- Hyon Wyman, Genere- Tall tale
+codice ISBN- 1353, Titolo- I Know Why the Caged Bird Sings, Anno- 1929, Numero Pagine- 365, Autore- Cathrine Dietrich, Genere- Narrative nonfiction
+codice ISBN- 1763, Titolo- What's Become of Waring, Anno- 1915, Numero Pagine- 220, Autore- Yvonne Reinger, Genere- Narrative nonfiction
+codice ISBN- 1130, Titolo- If Not Now, When?, Anno- 1994, Numero Pagine- 107, Autore- Dave Hoppe IV, Genere- Comic/Graphic Novel
+codice ISBN- 1581, Titolo- A Scanner Darkly, Anno- 1907, Numero Pagine- 315, Autore- Ms. Emerson Welch, Genere- Horror
+codice ISBN- 1519, Titolo- To Say Nothing of the Dog, Anno- 1949, Numero Pagine- 241, Autore- Osvaldo Lueilwitz, Genere- Mythology
+codice ISBN- 1831, Titolo- The Millstone, Anno- 1998, Numero Pagine- 141, Autore- Raylene Hartmann II, Genere- Biography/Autobiography
+codice ISBN- 1762, Titolo- The Yellow Meads of Asphodel, Anno- 1977, Numero Pagine- 334, Autore- Eva Crooks, Genere- Folklore
+codice ISBN- 1535, Titolo- Time To Murder And Create, Anno- 2006, Numero Pagine- 134, Autore- Houston Dibbert, Genere- Short story
+codice ISBN- 1332, Titolo- Moab Is My Washpot, Anno- 1915, Numero Pagine- 305, Autore- Aubrey Durgan, Genere- Horror
+codice ISBN- 1087, Titolo- The Widening Gyre, Anno- 2016, Numero Pagine- 287, Autore- Ms. Cedric Kassulke, Genere- Legend
+codice ISBN- 1425, Titolo- Consider the Lilies, Anno- 1971, Numero Pagine- 377, Autore- Luba Orn, Genere- Essay
+codice ISBN- 1270, Titolo- From Here to Eternity, Anno- 1929, Numero Pagine- 72, Autore- Carolyne Hyatt, Genere- Science fiction
+codice ISBN- 1143, Titolo- Where Angels Fear to Tread, Anno- 2022, Numero Pagine- 342, Autore- Scot Jacobi, Genere- Biography/Autobiography
+codice ISBN- 1494, Titolo- The Violent Bear It Away, Anno- 2010, Numero Pagine- 284, Autore- Dalila Lindgren, Genere- Fairy tale
+codice ISBN- 1466, Titolo- Ring of Bright Water, Anno- 1948, Numero Pagine- 117, Autore- Mrs. Darcy Kozey, Genere- Metafiction
+codice ISBN- 1129, Titolo- Those Barren Leaves, Thrones, Dominations, Anno- 2000, Numero Pagine- 234, Autore- Mr. John Hirthe, Genere- Fable
+codice ISBN- 1235, Titolo- Antic Hay, Anno- 2009, Numero Pagine- 283, Autore- Argelia Conroy V, Genere- Fiction in verse
+codice ISBN- 1213, Titolo- All Passion Spent, Anno- 1939, Numero Pagine- 259, Autore- Adam Huel DVM, Genere- Fable
+codice ISBN- 1549, Titolo- The Way of All Flesh, Anno- 1919, Numero Pagine- 191, Autore- Dr. Lyle Marvin, Genere- Fanfiction
+codice ISBN- 1691, Titolo- The Glory and the Dream, Anno- 1919, Numero Pagine- 233, Autore- Deirdre Lowe DVM, Genere- Realistic fiction
+codice ISBN- 1666, Titolo- Eyeless in Gaza, Anno- 1979, Numero Pagine- 224, Autore- Dr. Florentino Schulist, Genere- Tall tale

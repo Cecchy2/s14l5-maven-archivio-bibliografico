@@ -33,6 +33,7 @@ public class Riviste extends Pubblications {
 
                 System.out.println("Quante pagine ci sono nella tua rivista?");
                 int numeroPagine = Integer.parseInt(scanner.nextLine());
+                
 
                 System.out.println("Che periodicità ha la tua rivista: settimanale/mensile/semestrale");
                 Periodicita periodicita = Periodicita.valueOf(scanner.nextLine());
