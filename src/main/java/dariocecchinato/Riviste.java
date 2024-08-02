@@ -169,9 +169,11 @@ public class Riviste extends Pubblications {
 
     @Override
     public String toString() {
-        return super.toString() + "Riviste{" +
-                "periodicita=" + periodicita +
-                '}';
+        return "codice ISBN- " + getIsbn() +
+                ", Titolo- " + getTitolo() +
+                ", Anno- " + getAnnoPublicazione() +
+                ", Numero Pagine- " + getNumeroPagine() +
+                ", Periodicità- " + periodicita;
     }
 
 

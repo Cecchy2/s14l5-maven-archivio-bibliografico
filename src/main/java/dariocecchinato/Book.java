@@ -121,8 +121,8 @@ public class Book extends Pubblications {
         }
     }
 
-    public static void ricercaPerAutore(Scanner scanner, List<Book> bookList) {
-        System.out.println("Inserisci láutore che vuoi ricercare");
+    public static void ricercaLibroPerAutore(Scanner scanner, List<Book> bookList) {
+        System.out.println("Inserisci l' autore che vuoi ricercare");
         String author = scanner.nextLine();
         Predicate<Book> bookPredicate = book -> book.getAuthor().equals(author);
         List<Book> libriPerAutore = bookList.stream()
@@ -154,10 +154,12 @@ public class Book extends Pubblications {
 
     @Override
     public String toString() {
-        return super.toString() + " Book{" +
-                "author='" + Author + '\'' +
-                ", genre='" + Genre + '\'' +
-                '}';
+        return "codice ISBN- " + getIsbn() +
+                ", Titolo- " + getTitolo() +
+                ", Anno- " + getAnnoPublicazione() +
+                ", Numero Pagine- " + getNumeroPagine() +
+                ", Autore- " + Author +
+                ", Genere- " + Genre;
     }
 
     @Override

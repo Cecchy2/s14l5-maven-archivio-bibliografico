@@ -1,0 +1,50 @@
+codice ISBN- 1294, Titolo- Waiting for the Barbarians, Anno- 1953, Numero Pagine- 302, Autore- Phyliss Reynolds, Genere- Biography/Autobiography
+codice ISBN- 1102, Titolo- The Curious Incident of the Dog in the Night-Time, Anno- 1944, Numero Pagine- 302, Autore- Lily Bradtke, Genere- Folklore
+codice ISBN- 1257, Titolo- Infinite Jest, Anno- 1999, Numero Pagine- 113, Autore- Eva Satterfield Jr., Genere- Tall tale
+codice ISBN- 1123, Titolo- No Country for Old Men, Anno- 2021, Numero Pagine- 195, Autore- Brigida Jast, Genere- Tall tale
+codice ISBN- 1646, Titolo- This Side of Paradise, Anno- 1918, Numero Pagine- 124, Autore- Maribeth Roob, Genere- Fanfiction
+codice ISBN- 1962, Titolo- Butter In a Lordly Dish, Anno- 1935, Numero Pagine- 307, Autore- Aleshia Dickinson II, Genere- Fantasy
+codice ISBN- 1537, Titolo- Wildfire at Midnight, Anno- 1953, Numero Pagine- 229, Autore- Burma Schuppe, Genere- Fiction in verse
+codice ISBN- 1205, Titolo- Arms and the Man, Anno- 1904, Numero Pagine- 237, Autore- Ozie Kuvalis, Genere- Suspense/Thriller
+codice ISBN- 1145, Titolo- The Violent Bear It Away, Anno- 2002, Numero Pagine- 99, Autore- Eden Lockman, Genere- Fable
+codice ISBN- 1857, Titolo- The Wings of the Dove, Anno- 1962, Numero Pagine- 275, Autore- Edmond Wehner, Genere- Realistic fiction
+codice ISBN- 1003, Titolo- Moab Is My Washpot, Anno- 2001, Numero Pagine- 150, Autore- Titus Runte, Genere- Metafiction
+codice ISBN- 1730, Titolo- Things Fall Apart, Anno- 1969, Numero Pagine- 148, Autore- Colton Tremblay, Genere- Mystery
+codice ISBN- 1002, Titolo- For a Breath I Tarry, Anno- 1970, Numero Pagine- 372, Autore- Bruce McDermott, Genere- Biography/Autobiography
+codice ISBN- 1655, Titolo- The Cricket on the Hearth, Anno- 1984, Numero Pagine- 92, Autore- Cyrstal Price, Genere- Historical fiction
+codice ISBN- 1912, Titolo- Wildfire at Midnight, Anno- 1917, Numero Pagine- 215, Autore- Dr. Giselle Rohan, Genere- Fiction in verse
+codice ISBN- 1702, Titolo- In a Glass Darkly, Anno- 1942, Numero Pagine- 265, Autore- Mrs. Leroy Quigley, Genere- Crime/Detective
+codice ISBN- 1954, Titolo- No Highway, Anno- 1993, Numero Pagine- 112, Autore- Mr. Bryan Kuhic, Genere- Textbook
+codice ISBN- 1876, Titolo- Of Human Bondage, Anno- 1982, Numero Pagine- 269, Autore- Anibal Batz DDS, Genere- Fable
+codice ISBN- 1573, Titolo- Vile Bodies, Anno- 1953, Numero Pagine- 345, Autore- Miss Dwain Lakin, Genere- Western
+codice ISBN- 1539, Titolo- The Man Within, Anno- 1944, Numero Pagine- 142, Autore- Faye Gleichner, Genere- Legend
+codice ISBN- 1331, Titolo- Carrion Comfort, Anno- 1967, Numero Pagine- 197, Autore- Jc Swaniawski, Genere- Tall tale
+codice ISBN- 1368, Titolo- To a God Unknown, Anno- 2020, Numero Pagine- 149, Autore- Leisa Zboncak, Genere- Legend
+codice ISBN- 1385, Titolo- No Longer at Ease, Anno- 1910, Numero Pagine- 188, Autore- Gena Barrows DVM, Genere- Humor
+codice ISBN- 1976, Titolo- Jacob Have I Loved, Anno- 1940, Numero Pagine- 75, Autore- Vicenta Marquardt, Genere- Realistic fiction
+codice ISBN- 1314, Titolo- A Handful of Dust, Anno- 1924, Numero Pagine- 109, Autore- Apolonia Wisozk, Genere- Biography/Autobiography
+codice ISBN- 1652, Titolo- I Will Fear No Evil, Anno- 1922, Numero Pagine- 180, Autore- Dr. Mira Hackett, Genere- Mythopoeia
+codice ISBN- 1648, Titolo- Recalled to Life, Anno- 1904, Numero Pagine- 346, Autore- Louis Sipes, Genere- Essay
+codice ISBN- 1749, Titolo- Time of our Darkness, Anno- 2013, Numero Pagine- 387, Autore- Jaclyn Pacocha, Genere- Biography/Autobiography
+codice ISBN- 1640, Titolo- Vile Bodies, Anno- 2022, Numero Pagine- 191, Autore- Forest Powlowski, Genere- Humor
+codice ISBN- 1907, Titolo- Alone on a Wide, Wide Sea, Anno- 1924, Numero Pagine- 241, Autore- Mr. Irena Dicki, Genere- Legend
+codice ISBN- 1351, Titolo- An Instant In The Wind, Anno- 2015, Numero Pagine- 167, Autore- Rex Tillman V, Genere- Fiction narrative
+codice ISBN- 1887, Titolo- Eyeless in Gaza, Anno- 1927, Numero Pagine- 360, Autore- Tomas Dicki, Genere- Tall tale
+codice ISBN- 1691, Titolo- The Line of Beauty, Anno- 2020, Numero Pagine- 261, Autore- Blake Nitzsche DVM, Genere- Fiction in verse
+codice ISBN- 1925, Titolo- The Mermaids Singing, Anno- 1994, Numero Pagine- 129, Autore- Courtney Kessler, Genere- Suspense/Thriller
+codice ISBN- 1205, Titolo- Precious Bane, Anno- 2017, Numero Pagine- 254, Autore- Otha Kihn, Genere- Short story
+codice ISBN- 1346, Titolo- The Painted Veil, Anno- 2017, Numero Pagine- 292, Autore- Carey Nicolas Sr., Genere- Fiction in verse
+codice ISBN- 1873, Titolo- Tirra Lirra by the River, Anno- 1923, Numero Pagine- 212, Autore- Sunny Schuppe Sr., Genere- Legend
+codice ISBN- 1047, Titolo- Beyond the Mexique Bay, Anno- 1981, Numero Pagine- 215, Autore- Marcelle Pouros, Genere- Realistic fiction
+codice ISBN- 1036, Titolo- A Time to Kill, Anno- 1989, Numero Pagine- 359, Autore- Dr. Carmen Heidenreich, Genere- Fable
+codice ISBN- 1598, Titolo- The Golden Apples of the Sun, Anno- 1923, Numero Pagine- 191, Autore- Ike Dickens, Genere- Essay
+codice ISBN- 1763, Titolo- In a Glass Darkly, Anno- 2018, Numero Pagine- 319, Autore- Rigoberto Wisozk, Genere- Science fiction
+codice ISBN- 1425, Titolo- Recalled to Life, Anno- 2011, Numero Pagine- 78, Autore- Miss Philomena Mayer, Genere- Tall tale
+codice ISBN- 1289, Titolo- Fair Stood the Wind for France, Anno- 1999, Numero Pagine- 291, Autore- Adalberto Beier, Genere- Tall tale
+codice ISBN- 1012, Titolo- Noli Me Tangere, Anno- 1982, Numero Pagine- 289, Autore- Ramon Reichert, Genere- Fiction in verse
+codice ISBN- 1563, Titolo- A Farewell to Arms, Anno- 2010, Numero Pagine- 209, Autore- Corie Gutkowski, Genere- Suspense/Thriller
+codice ISBN- 1721, Titolo- Alone on a Wide, Wide Sea, Anno- 1915, Numero Pagine- 98, Autore- Garrett Bernier, Genere- Tall tale
+codice ISBN- 1755, Titolo- Dying of the Light, Anno- 2004, Numero Pagine- 77, Autore- Donny Bartoletti, Genere- Science fiction
+codice ISBN- 1796, Titolo- Bury My Heart at Wounded Knee, Anno- 1930, Numero Pagine- 216, Autore- Wesley Raynor, Genere- Biography/Autobiography
+codice ISBN- 1512, Titolo- To Say Nothing of the Dog, Anno- 1912, Numero Pagine- 149, Autore- Asia Reichert, Genere- Mystery
+codice ISBN- 1498, Titolo- In Dubious Battle, Anno- 1971, Numero Pagine- 294, Autore- Leah Legros, Genere- Legend

@@ -1,15 +1,23 @@
 package dariocecchinato;
 
 import com.github.javafaker.Faker;
+import org.apache.commons.io.FileUtils;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 public class Application {
 
     public static void main(String[] args) {
+        File file = new File("src/saved_project.txt");
+
 
         //--------------------------------------Creo Lista Libri Randomizzata con Faker---------------------------------
         List<Book> bookList = new ArrayList<>();
@@ -27,13 +35,27 @@ public class Application {
             bookList.add(randomBookList.get());
         }
         System.out.println("--------------------------------------LIBRI-----------------------------------------------");
-        bookList.forEach(book -> System.out.println("codice ISBN- " +
-                book.getIsbn() + ", Titolo- " +
-                book.getTitolo() + ", Anno- " +
-                book.getAnnoPublicazione() + ", Numero Pagine- " +
-                book.getNumeroPagine() + ", Autore- " +
-                book.getAuthor() + ", Genere- " +
-                book.getGenre()));
+        bookList.forEach(System.out::println);
+
+
+        //---------------------------------------Salvo la lista dei libri in un File.text--------------------------------
+
+        try {
+            String bookListStringed = bookList.stream()
+                    .map(Book::toString)
+                    .collect(Collectors.joining(System.lineSeparator()));
+            FileUtils.writeStringToFile(file, bookListStringed, StandardCharsets.UTF_8);
+
+            //----------------------------------------Leggo il File Contenente la lista di Libri----------------------------
+
+            String content = FileUtils.readFileToString(file, StandardCharsets.UTF_8);
+            String[] contentAsArray = content.split(System.lineSeparator());
+            System.out.println("--------------------------------Lettura File--------------------------------------------");
+            System.out.println(Arrays.toString(contentAsArray));
+
+        } catch (IOException e) {
+            throw new RuntimeException();
+        }
 
 
         //--------------------------------------Creo Lista Riviste Randomizzata con Faker---------------------------------
@@ -51,12 +73,7 @@ public class Application {
             rivisteList.add(randomRivisteList.get());
         }
         System.out.println("--------------------------------------RIVISTE-----------------------------------------------");
-        rivisteList.forEach(book -> System.out.println("codice ISBN- " +
-                book.getIsbn() + ", Titolo- " +
-                book.getTitolo() + ", Anno- " +
-                book.getAnnoPublicazione() + ", Numero Pagine- " +
-                book.getNumeroPagine() + ", Periodicità- " +
-                book.getPeriodicita()));
+        rivisteList.forEach(System.out::println);
 
         //--------------------------------------Scanner per i metodi sui libri------------------------------------------
 
@@ -103,7 +120,7 @@ public class Application {
                     Riviste.searchByYear(scanner, rivisteList);
                     break;
                 case "9":
-                    Book.ricercaPerAutore(scanner, bookList);
+                    Book.ricercaLibroPerAutore(scanner, bookList);
                     break;
                 case "0":
                     return;
@@ -112,6 +129,8 @@ public class Application {
                     break;
             }
         }
+
+
     }
 
 
