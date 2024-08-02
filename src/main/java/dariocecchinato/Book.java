@@ -2,6 +2,7 @@ package dariocecchinato;
 
 import java.util.List;
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 public class Book extends Pubblications {
     private String Author;
@@ -50,14 +51,69 @@ public class Book extends Pubblications {
         while (true) {
             try {
                 int codiceIsbn = Integer.parseInt(scanner2.nextLine());
-                Book bookToRemove= bookList.stream()
-                        .filter(book -> book.getIsbn() == codiceIsbn).anyMatch()
-            }catch (Exception e){
-                System.out.println("devi inserire il codice esatto" + e.getMessage());
+
+                Predicate<Book> bookPredicate = book -> book.getIsbn() == codiceIsbn;
+
+                if (bookList.stream().anyMatch(bookPredicate)) {
+                    bookList.remove(bookPredicate);
+                } else {
+                    System.out.println("Il codice che hai inserito non esiste");
+                }
+            } catch (Exception e) {
+                System.out.println("devi inserire un numero valido" + e.getMessage());
             }
         }
-
     }
+
+    public static void searchByIsbn(Scanner scanner, List<Book> bookList) {
+        System.out.println("Inserisci il codice ISBN da ricercare");
+
+        while (true) {
+            try {
+                int codiceIsbn = Integer.parseInt(scanner.nextLine());
+                Predicate<Book> bookPredicate = book -> book.getIsbn() == codiceIsbn;
+
+                Book libroTrovato = bookList.stream()
+                        .findFirst()
+                        .orElse(null);
+
+                if (libroTrovato != null) {
+                    System.out.println("Il libro che hai cercato è: " + libroTrovato.getTitolo() + " di " + libroTrovato.Author + " del " + libroTrovato.getGenre());
+                } else {
+                    System.out.println("Non ho trovato libri con questo codice");
+                }
+
+            } catch (Exception e) {
+                System.out.println("Inserisci un numero valido");
+            }
+        }
+    }
+
+    public static void searchByYear(Scanner scanner, List<Book> bookList) {
+        System.out.println("Inserisci l' anno da ricercare");
+
+        while (true) {
+            try {
+                int anno = Integer.parseInt(scanner.nextLine());
+                Predicate<Book> bookPredicate = book -> book.getAnnoPublicazione() == anno;
+
+                List<Book> libriTrovati = bookList.stream()
+                        .filter(bookPredicate)
+                        .toList();
+
+                if (libriTrovati != null) {
+                    libriTrovati.forEach(book -> System.out.println(book.getTitolo() + "- di :" + book.Author + "- genere: " + book.getGenre()));
+
+                } else {
+                    System.out.println("Non ho trovato libri di quell' anno");
+                }
+
+            } catch (Exception e) {
+                System.out.println("Inserisci un anno valido");
+            }
+        }
+    }
+
 
     public String getAuthor() {
         return Author;

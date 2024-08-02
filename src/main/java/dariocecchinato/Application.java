@@ -26,7 +26,7 @@ public class Application {
         for (int i = 0; i < 50; i++) {
             bookList.add(randomBookList.get());
         }
-        //bookList.forEach(System.out::println);
+        bookList.forEach(System.out::println);
 
 
         //--------------------------------------Creo Lista Riviste Randomizzata con Faker---------------------------------
@@ -51,10 +51,16 @@ public class Application {
         System.out.println("----------------------------Aggiungi un Libro----------------------------------------------");
 
         while (true) {
-            System.out.println("Vuoi inserire un Libro o una Rivista?");
-            System.out.println("1. Libro");
-            System.out.println("2. Rivista");
-            System.out.println("3. Esci");
+            System.out.println("Scegli cosa fare scrivendo il numero");
+            System.out.println("1. Aggiungi Libro");
+            System.out.println("2. Aggiungi Rivista");
+            System.out.println("3. Rimuovi Libro");
+            System.out.println("4. Rimuovi Rivista");
+            System.out.println("5. Cerca Libro per ISBN");
+            System.out.println("6. Cerca Rivista per ISBN");
+            System.out.println("7. Cerca Libro per anno");
+            System.out.println("8. Cerca Rivista per anno");
+            System.out.println("0. Esci");
             String scelta = scanner.nextLine();
 
             switch (scelta) {
@@ -64,6 +70,23 @@ public class Application {
                 case "2":
                     Riviste.addRivista(scanner, rivisteList);
                     break;
+                case "3":
+                    Book.removeByIsbn(scanner, bookList);
+                    break;
+                case "4":
+                    Riviste.removeByIsbn(scanner, rivisteList);
+                    break;
+                case "5":
+                    Book.searchByIsbn(scanner, bookList);
+                    break;
+                case "6":
+                    Riviste.searchByIsbn(scanner, rivisteList);
+                    break;
+                case "7":
+                    Book.searchByYear(scanner, bookList);
+                    break;
+                case "8":
+                    Riviste.searchByYear(scanner, rivisteList);
                 case "0":
                     return;
                 default:
