@@ -56,6 +56,7 @@ public class Book extends Pubblications {
 
                 if (bookList.stream().anyMatch(bookPredicate)) {
                     bookList.remove(bookPredicate);
+                    System.out.println("Hai rimosso il libro daalla lista");
                 } else {
                     System.out.println("Il codice che hai inserito non esiste");
                 }
@@ -74,6 +75,7 @@ public class Book extends Pubblications {
                 Predicate<Book> bookPredicate = book -> book.getIsbn() == codiceIsbn;
 
                 Book libroTrovato = bookList.stream()
+                        .filter(bookPredicate)
                         .findFirst()
                         .orElse(null);
 
@@ -102,7 +104,12 @@ public class Book extends Pubblications {
                         .toList();
 
                 if (libriTrovati != null) {
-                    libriTrovati.forEach(book -> System.out.println(book.getTitolo() + "- di :" + book.Author + "- genere: " + book.getGenre()));
+                    libriTrovati.forEach(
+                            book -> System.out.println(
+                                    book.getTitolo() + "- di :" +
+                                            book.Author + "- genere: " +
+                                            book.getGenre()));
+                    break;
 
                 } else {
                     System.out.println("Non ho trovato libri di quell' anno");
@@ -114,6 +121,20 @@ public class Book extends Pubblications {
         }
     }
 
+    public static void ricercaPerAutore(Scanner scanner, List<Book> bookList) {
+        System.out.println("Inserisci láutore che vuoi ricercare");
+        String author = scanner.nextLine();
+        Predicate<Book> bookPredicate = book -> book.getAuthor().equals(author);
+        List<Book> libriPerAutore = bookList.stream()
+                .filter(bookPredicate)
+                .toList();
+
+        libriPerAutore
+                .forEach(libro -> System.out.println(libro
+                        .getTitolo() + " genere " + libro
+                        .getGenre()));
+
+    }
 
     public String getAuthor() {
         return Author;

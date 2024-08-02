@@ -52,6 +52,7 @@ public class Riviste extends Pubblications {
 
                 if (rivisteList.stream().anyMatch(rivistePredicate)) {
                     rivisteList.remove(rivistePredicate);
+                    System.out.println("hai rimosso il libro dalla lista");
                 } else {
                     System.out.println("Il codice che hai inserito non esiste");
                 }
@@ -103,7 +104,10 @@ public class Riviste extends Pubblications {
                         .toList();
 
                 if (rivisteTrovate != null) {
-                    rivisteTrovate.forEach(riviste -> System.out.println("Le riviste di quellánno sono  " + riviste.getTitolo() + " ed è un  " + riviste.periodicita));
+                    rivisteTrovate.forEach(
+                            riviste -> System.out.println("Le riviste di quellánno sono  " +
+                                    riviste.getTitolo() + " ed è un  " +
+                                    riviste.periodicita));
 
                 } else {
                     System.out.println("Non ho trovato riviste di quell' anno");

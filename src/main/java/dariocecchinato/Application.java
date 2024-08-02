@@ -26,7 +26,14 @@ public class Application {
         for (int i = 0; i < 50; i++) {
             bookList.add(randomBookList.get());
         }
-        bookList.forEach(System.out::println);
+        System.out.println("--------------------------------------LIBRI-----------------------------------------------");
+        bookList.forEach(book -> System.out.println("codice ISBN- " +
+                book.getIsbn() + ", Titolo- " +
+                book.getTitolo() + ", Anno- " +
+                book.getAnnoPublicazione() + ", Numero Pagine- " +
+                book.getNumeroPagine() + ", Autore- " +
+                book.getAuthor() + ", Genere- " +
+                book.getGenre()));
 
 
         //--------------------------------------Creo Lista Riviste Randomizzata con Faker---------------------------------
@@ -43,23 +50,30 @@ public class Application {
         for (int i = 0; i < 30; i++) {
             rivisteList.add(randomRivisteList.get());
         }
-        //rivisteList.forEach(System.out::println);
+        System.out.println("--------------------------------------RIVISTE-----------------------------------------------");
+        rivisteList.forEach(book -> System.out.println("codice ISBN- " +
+                book.getIsbn() + ", Titolo- " +
+                book.getTitolo() + ", Anno- " +
+                book.getAnnoPublicazione() + ", Numero Pagine- " +
+                book.getNumeroPagine() + ", Periodicità- " +
+                book.getPeriodicita()));
 
         //--------------------------------------Scanner per i metodi sui libri------------------------------------------
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("----------------------------Aggiungi un Libro----------------------------------------------");
+        System.out.println("----------------------------SCEGLI COSA FARE-------------------------------------------------");
 
         while (true) {
             System.out.println("Scegli cosa fare scrivendo il numero");
             System.out.println("1. Aggiungi Libro");
             System.out.println("2. Aggiungi Rivista");
-            System.out.println("3. Rimuovi Libro");
-            System.out.println("4. Rimuovi Rivista");
+            System.out.println("3. Rimuovi Libro tramite codice ISBN");
+            System.out.println("4. Rimuovi Rivista tramite codice ISBN");
             System.out.println("5. Cerca Libro per ISBN");
             System.out.println("6. Cerca Rivista per ISBN");
-            System.out.println("7. Cerca Libro per anno");
-            System.out.println("8. Cerca Rivista per anno");
+            System.out.println("7. Cerca Libro per Anno");
+            System.out.println("8. Cerca Rivista per Anno");
+            System.out.println("9. Cerca Libro per Autore");
             System.out.println("0. Esci");
             String scelta = scanner.nextLine();
 
@@ -87,6 +101,10 @@ public class Application {
                     break;
                 case "8":
                     Riviste.searchByYear(scanner, rivisteList);
+                    break;
+                case "9":
+                    Book.ricercaPerAutore(scanner, bookList);
+                    break;
                 case "0":
                     return;
                 default:
