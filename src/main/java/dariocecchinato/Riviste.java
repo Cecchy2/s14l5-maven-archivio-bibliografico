@@ -1,8 +1,15 @@
 package dariocecchinato;
 
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Riviste extends Pubblications {
     private Periodicita periodicita = Periodicita.settimanale;
@@ -116,6 +123,30 @@ public class Riviste extends Pubblications {
             } catch (Exception e) {
                 System.out.println("Inserisci un anno valido");
             }
+        }
+    }
+
+    public static void salvaFile(File riviste, List<Riviste> rivisteList) {
+        try {
+            String rivisteStringed = rivisteList.stream()
+                    .map(Riviste::toString)
+                    .collect(Collectors.joining(System.lineSeparator()));
+            FileUtils.writeStringToFile(riviste, rivisteStringed, StandardCharsets.UTF_8);
+            System.out.println("Il File è stato salvato con successo");
+
+        } catch (IOException e) {
+            System.out.println("Non è stato possibile creare il File");
+        }
+    }
+
+    public static void leggiFile(File riviste, List<Riviste> rivisteList) {
+        try {
+            String content = FileUtils.readFileToString(riviste, StandardCharsets.UTF_8);
+            String[] contentAsArray = content.split(System.lineSeparator());
+            System.out.println("--------------------------------Lettura File--------------------------------------------");
+            System.out.println(Arrays.toString(contentAsArray));
+        } catch (IOException e) {
+            throw new RuntimeException();
         }
     }
 

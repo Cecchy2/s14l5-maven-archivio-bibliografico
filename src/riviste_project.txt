@@ -1,0 +1,30 @@
+codice ISBN- 1446, Titolo- Wildfire at Midnight, Anno- 2020, Numero Pagine- 24, Periodicità- settimanale
+codice ISBN- 1911, Titolo- Eyeless in Gaza, Anno- 2020, Numero Pagine- 38, Periodicità- settimanale
+codice ISBN- 1396, Titolo- I Know Why the Caged Bird Sings, Anno- 2023, Numero Pagine- 35, Periodicità- settimanale
+codice ISBN- 1547, Titolo- Now Sleeps the Crimson Petal, Anno- 2022, Numero Pagine- 36, Periodicità- settimanale
+codice ISBN- 1895, Titolo- Behold the Man, Anno- 2021, Numero Pagine- 27, Periodicità- settimanale
+codice ISBN- 1954, Titolo- The Torment of Others, Anno- 2022, Numero Pagine- 26, Periodicità- settimanale
+codice ISBN- 1780, Titolo- The Sun Also Rises, Anno- 2022, Numero Pagine- 20, Periodicità- settimanale
+codice ISBN- 1161, Titolo- The Road Less Traveled, Anno- 2021, Numero Pagine- 32, Periodicità- settimanale
+codice ISBN- 1837, Titolo- A Farewell to Arms, Anno- 2021, Numero Pagine- 33, Periodicità- settimanale
+codice ISBN- 1012, Titolo- East of Eden, Anno- 2020, Numero Pagine- 37, Periodicità- settimanale
+codice ISBN- 1152, Titolo- Nectar in a Sieve, Anno- 2021, Numero Pagine- 24, Periodicità- settimanale
+codice ISBN- 1012, Titolo- A Passage to India, Anno- 2021, Numero Pagine- 32, Periodicità- settimanale
+codice ISBN- 1655, Titolo- O Jerusalem!, Anno- 2023, Numero Pagine- 36, Periodicità- settimanale
+codice ISBN- 1344, Titolo- Shall not Perish, Anno- 2021, Numero Pagine- 25, Periodicità- settimanale
+codice ISBN- 1166, Titolo- Edna O'Brien, Anno- 2023, Numero Pagine- 31, Periodicità- settimanale
+codice ISBN- 1691, Titolo- A Monstrous Regiment of Women, Anno- 2023, Numero Pagine- 30, Periodicità- settimanale
+codice ISBN- 1499, Titolo- The Wealth of Nations, Anno- 2022, Numero Pagine- 33, Periodicità- settimanale
+codice ISBN- 1159, Titolo- For Whom the Bell Tolls, Anno- 2023, Numero Pagine- 27, Periodicità- settimanale
+codice ISBN- 1094, Titolo- Waiting for the Barbarians, Anno- 2022, Numero Pagine- 23, Periodicità- settimanale
+codice ISBN- 1682, Titolo- O Jerusalem!, Anno- 2023, Numero Pagine- 22, Periodicità- settimanale
+codice ISBN- 1644, Titolo- The Curious Incident of the Dog in the Night-Time, Anno- 2020, Numero Pagine- 23, Periodicità- settimanale
+codice ISBN- 1024, Titolo- For a Breath I Tarry, Anno- 2022, Numero Pagine- 38, Periodicità- settimanale
+codice ISBN- 1053, Titolo- Oh! To be in England, Anno- 2020, Numero Pagine- 25, Periodicità- settimanale
+codice ISBN- 1043, Titolo- The Grapes of Wrath, Anno- 2023, Numero Pagine- 24, Periodicità- settimanale
+codice ISBN- 1899, Titolo- Mr Standfast, Anno- 2023, Numero Pagine- 21, Periodicità- settimanale
+codice ISBN- 1492, Titolo- Brandy of the Damned, Anno- 2021, Numero Pagine- 28, Periodicità- settimanale
+codice ISBN- 1107, Titolo- Paths of Glory, Anno- 2020, Numero Pagine- 31, Periodicità- settimanale
+codice ISBN- 1752, Titolo- His Dark Materials, Anno- 2022, Numero Pagine- 31, Periodicità- settimanale
+codice ISBN- 1188, Titolo- Rosemary Sutcliff, Anno- 2021, Numero Pagine- 25, Periodicità- settimanale
+codice ISBN- 1860, Titolo- Such, Such Were the Joys, Anno- 2023, Numero Pagine- 35, Periodicità- settimanale

@@ -1,22 +1,18 @@
 package dariocecchinato;
 
 import com.github.javafaker.Faker;
-import org.apache.commons.io.FileUtils;
 
 import java.io.File;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Supplier;
-import java.util.stream.Collectors;
 
 public class Application {
 
     public static void main(String[] args) {
         File file = new File("src/saved_project.txt");
+        File riviste = new File("src/riviste_project.txt");
 
 
         //--------------------------------------Creo Lista Libri Randomizzata con Faker---------------------------------
@@ -40,7 +36,8 @@ public class Application {
 
         //---------------------------------------Salvo la lista dei libri in un File.text--------------------------------
 
-        try {
+        /*Book.salvaFile(bookList,file);*/
+        /* try {
             String bookListStringed = bookList.stream()
                     .map(Book::toString)
                     .collect(Collectors.joining(System.lineSeparator()));
@@ -52,10 +49,9 @@ public class Application {
             String[] contentAsArray = content.split(System.lineSeparator());
             System.out.println("--------------------------------Lettura File--------------------------------------------");
             System.out.println(Arrays.toString(contentAsArray));
-
         } catch (IOException e) {
             throw new RuntimeException();
-        }
+        }*/
 
 
         //--------------------------------------Creo Lista Riviste Randomizzata con Faker---------------------------------
@@ -91,6 +87,11 @@ public class Application {
             System.out.println("7. Cerca Libro per Anno");
             System.out.println("8. Cerca Rivista per Anno");
             System.out.println("9. Cerca Libro per Autore");
+            System.out.println("10. Salva la lista dei LIBRI in un File");
+            System.out.println("11. Leggi la lista dei LIBRI");
+            System.out.println("12. Salva la lista delle RIVISTE in un file");
+            System.out.println("13. Leggi la lista delle RIVISTE");
+
             System.out.println("0. Esci");
             String scelta = scanner.nextLine();
 
@@ -122,6 +123,18 @@ public class Application {
                 case "9":
                     Book.ricercaLibroPerAutore(scanner, bookList);
                     break;
+                case "10":
+                    Book.salvaFile(file, bookList);
+                    break;
+                case "11":
+                    Book.leggiFile(file, bookList);
+                    break;
+                case "12":
+                    Riviste.salvaFile(riviste, rivisteList);
+                    break;
+                case "13":
+                    Riviste.leggiFile(riviste, rivisteList);
+                    break;
                 case "0":
                     return;
                 default:
@@ -129,9 +142,5 @@ public class Application {
                     break;
             }
         }
-
-
     }
-
-
 }

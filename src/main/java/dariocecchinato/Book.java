@@ -1,8 +1,15 @@
 package dariocecchinato;
 
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Book extends Pubblications {
     private String Author;
@@ -134,6 +141,30 @@ public class Book extends Pubblications {
                         .getTitolo() + " genere " + libro
                         .getGenre()));
 
+    }
+
+    public static void salvaFile(File file, List<Book> bookList) {
+        try {
+            String bookListStringed = bookList.stream()
+                    .map(Book::toString)
+                    .collect(Collectors.joining(System.lineSeparator()));
+            FileUtils.writeStringToFile(file, bookListStringed, StandardCharsets.UTF_8);
+            System.out.println("Il File è stato salvato con successo");
+
+        } catch (IOException e) {
+            System.out.println("Non è stato possibile creare il File");
+        }
+    }
+
+    public static void leggiFile(File file, List<Book> bookList) {
+        try {
+            String content = FileUtils.readFileToString(file, StandardCharsets.UTF_8);
+            String[] contentAsArray = content.split(System.lineSeparator());
+            System.out.println("--------------------------------Lettura File--------------------------------------------");
+            System.out.println(Arrays.toString(contentAsArray));
+        } catch (IOException e) {
+            throw new RuntimeException();
+        }
     }
 
     public String getAuthor() {
